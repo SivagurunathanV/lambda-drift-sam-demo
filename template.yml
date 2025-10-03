@@ -38,7 +38,7 @@ Resources:
       CodeUri: ./
       Handler: src/handlers/get-all-items.getAllItemsHandler
       Runtime: nodejs22.x
-      MemorySize: 128
+      MemorySize: 1028
       Timeout: 60
       Description: A simple example includes a HTTP get method to get all items from a DynamoDB table.
       Policies:
